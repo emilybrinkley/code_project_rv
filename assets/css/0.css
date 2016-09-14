@@ -25,6 +25,11 @@ body {
 	display: none;
 }
 
+.owl-prev,
+.owl-next {
+	display: none;
+}
+
 .wrap {
 	width:100%;
 	max-width: 1000px;
@@ -32,15 +37,10 @@ body {
 	margin:auto;
 }
 
+/*Main Content*/
+
 .container {
 	margin: 25px 0px;
-}
-
-.quote-text {
-	background: #18a0ff;
-	color: #FFF;
-	width: 530px;
-	height: 490px;
 }
 
 .column-1 {
@@ -50,6 +50,13 @@ body {
 
 .column-2 {
 	float: right;
+}
+
+.quote-text {
+	background: #18a0ff;
+	color: #FFF;
+	width: 530px;
+	height: 490px;
 }
 
 h1 {
@@ -67,6 +74,8 @@ p {
 	letter-spacing: 1px;
 }
 
+/*Quote Styles*/
+
 blockquote {
 	quotes: "\201C";
 }
@@ -81,6 +90,28 @@ blockquote:before {
     left: 42px;
  
 }
+
+/*Arrow Styles*/
+
+.fa {
+	font-size: 3em;
+	color: #fff;
+	opacity: 0.8;
+	margin: 0 27.5px;
+}
+
+.arrows {
+	position: absolute;
+	width: 150px;
+    bottom: 20px;
+    left: 14px;
+}
+
+.sheldon-image {
+	position: relative;
+}
+
+/*Box Shadow Styles*/
 
 .shadow {
 	-webkit-box-shadow: 0 8px 6px -6px black;
