@@ -57,6 +57,7 @@ body {
 	color: #FFF;
 	width: 530px;
 	height: 490px;
+	position: relative;
 }
 
 h1 {
@@ -118,3 +119,30 @@ blockquote:before {
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
 }
+
+/*Like Button*/
+
+.likes_badge {
+	margin-top: 2px;
+}
+
+.button {
+	width: 90px;
+    height: 28px;
+    border:1px solid #999;
+	border-radius: 30px;
+	position: absolute;
+	top: 8px;
+	right: 15px;
+}
+
+.button.lblue {
+	background: #008BD9;
+	color:#fff;
+	border-color: #008BD9;
+}
+.button.lblue:hover {
+	color:#71b4d5;
+	background: transparent;
+}
+

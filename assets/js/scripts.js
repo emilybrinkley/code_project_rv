@@ -17,4 +17,5 @@
     }
     
     $('#carousel').owlCarousel();
+    console.log("program running")
 
